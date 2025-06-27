@@ -30,7 +30,7 @@ Configure and test basic firewall rules to allow or block traffic on Kali Linux.
 - Developed an understanding of how firewalls enhance network security through traffic filtering.
 
 ## Challenges
-- Encountered `apt-key` deprecation and repository errors; resolved using modern key management techniques.
+- Encountered `apt-key` deprecation and repository errors ; resolved using modern key management techniques.
 
 ## Acknowledgments
 - **Elevate Cybersecurity Internship**: For providing this valuable learning opportunity.
