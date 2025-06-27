@@ -1,0 +1,22 @@
+# Firewall Configuration Commands
+# Step 1: Add Kali Archive Key and Update Repositories
+wget -q -O - https://archive.kali.org/archive-key.asc | sudo tee /etc/apt/trusted.gpg.d/kali-archive-key.asc
+sudo apt update
+
+# Step 2: Install UFW
+sudo apt install ufw -y
+
+# Step 3: Enable UFW
+sudo ufw enable
+
+# Step 4: Check Initial Status
+sudo ufw status numbered
+
+# Step 5: Block Inbound Traffic on Port 23 (Telnet)
+sudo ufw deny 23
+
+# Step 6: Allow Inbound Traffic on Port 22 (SSH)
+sudo ufw allow 22
+
+# Step 7: Remove the Test Block Rule (e.g., Rule 2)
+sudo ufw delete 2
