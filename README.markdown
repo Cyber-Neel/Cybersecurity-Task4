@@ -23,7 +23,6 @@ Configure and test basic firewall rules to allow or block traffic on Kali Linux.
 ## Files Included
 - `firewall_commands.txt`: A well-organized list of UFW commands executed.
 - `vulnerability_report.txt`: A comprehensive report on firewall configuration and traffic filtering.
-- `firewall_test.png`: A screenshot capturing the firewall rules and test results.
 
 ## Key Learnings
 - Gained skills in troubleshooting repository and GPG key issues.
